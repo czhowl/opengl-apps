@@ -9,8 +9,11 @@
       <AdditionalDependencies>glfw3.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\czhhz\source\opengl-apps\glad\include;C:\Users\czhhz\source\opengl-apps\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\czhhz\source\opengl-apps\glad\include;C:\Users\czhhz\source\opengl-apps\glfw\include;C:\Users\czhhz\source\opengl-apps\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <PostBuildEvent>
+      <Command>XCOPY "$(SolutionDir)assets" "$(TargetDir)assets\" /S /Y</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup />
 </Project>

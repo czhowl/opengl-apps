@@ -135,6 +135,12 @@
     <ClInclude Include="..\source\shader.h" />
     <ClInclude Include="..\source\stb_image.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\assets\lamp.frag" />
+    <None Include="..\assets\lamp.vert" />
+    <None Include="..\assets\object.frag" />
+    <None Include="..\assets\object.vert" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

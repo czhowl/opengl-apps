@@ -1,11 +1,3 @@
-//
-//  main.cpp
-//  openglstart
-//
-//  Created by Zihao Chen on 1/19/20.
-//  Copyright © 2020 Zihao Chen. All rights reserved.
-//
-
 #include <iostream>
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>

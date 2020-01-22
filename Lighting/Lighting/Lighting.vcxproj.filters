@@ -49,5 +49,11 @@
     <None Include="..\assets\object.frag">
       <Filter>Source Files\shader</Filter>
     </None>
+    <None Include="..\assets\material.vert">
+      <Filter>Source Files\shader</Filter>
+    </None>
+    <None Include="..\assets\material.frag">
+      <Filter>Source Files\shader</Filter>
+    </None>
   </ItemGroup>
 </Project>

@@ -138,6 +138,8 @@
   <ItemGroup>
     <None Include="..\assets\lamp.frag" />
     <None Include="..\assets\lamp.vert" />
+    <None Include="..\assets\material.frag" />
+    <None Include="..\assets\material.vert" />
     <None Include="..\assets\object.frag" />
     <None Include="..\assets\object.vert" />
   </ItemGroup>
